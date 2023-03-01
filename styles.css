@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;700&family=Source+Sans+Pro:wght@200;400;600&display=swap");
+
+:root {
+  --body-backround-color: #b2d5fc;
+  --container-one-background-color: #5c9ce5;
+  --container-two-background-color: #e4f1ff;
+  --container-chart-background-color: #ffffff;
+  --button-background-color:#f1f1f1;
+  --font-family: "Nunito", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  min-height: 100vh;
+  font-family: var(--font-family);
+  background-color: var(--body-backround-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 
+common
+*/
+
+h3{
+ font-weight: 700;
+ letter-spacing: 0.01em;
+}
+
+p {
+ font-weight: 400;
+ letter-spacing: 0.01em;
+}
+.container-one {
+  width: 80vw;
+  height: 90vh;
+  border-radius: 36px;
+  background-color: var(--container-one-background-color);
+  position: absolute;
+  margin: 0 auto;
+}
+
+.container-two {
+  height: 90vh;
+  width: 60vw;
+  border-radius: 36px;
+  background-color: var(--container-two-background-color);
+  position: relative;
+  margin: 0 auto;
+  left: 10em;
+  padding: 2em;
+}
+
+.container-chart {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+  width: 56vw;
+  height: 35vh;
+  margin-top: 2em;
+  border-radius: 26px;
+  background-color: var(--container-chart-background-color);
+}
+
+.section-heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-profile {
+    display: flex;
+    align-items: center;
+    
+}
+.profile-image{
+    margin-left: 1em;
+    width: 36px;
+    height: 36px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+
+.chart-features{
+  display: flex;
+  justify-content: center;
+  
+}
+.feature-1,
+.feature-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  height: 26px;
+  border-radius: 12px;
+  background-color: var(--button-background-color);
+  font-size: small;
+  margin-left: 1em;
+  
+}
+
+.feature-1{
+  width: 156px;
+
+}
+.feature-2 {
+  width: 106px;
+
+}
+
+.feature-1-rep{
+  
+}
